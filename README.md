@@ -10,7 +10,7 @@ Universal Geometry Inspector for QGIS 4.x (Qt6).
         POINT                          LINE                          POLYGON
           |                              |                              |
        Lat/Lon                        Length                          Area
-       X/Y                            Vertices                        Perimetre
+       X/Y                            Vertices                        Perimeter
        CRS                            Start/End                       Centroid
           |                              |                              |
           +---------------+--------------+--------------+---------------+
@@ -51,3 +51,7 @@ Length, area, and perimeter measurements are calculated using **QgsDistanceArea*
 - Multipart geometries are supported (multipoints, multilines, and multipolygons); the first part is analyzed.
 - Attribute editing detects the field type using QgsField.typeName() (integer/real/boolean/string) and automatically converts the entered value, reporting conversion errors before saving.
 - If the layer was not already in edit mode, Quick Inspector automatically starts an edit session and commits the changes after saving. In case of an error, the changes are rolled back.
+
+## Interface
+
+<img width="390" height="698" alt="imag1" src="https://github.com/user-attachments/assets/c6beb1bc-f2de-4e4d-9cd3-c6229c937da2" />
