@@ -9,13 +9,13 @@ Universal Geometry Inspector for QGIS 4.x (Qt6).
           |                              |                              |
         POINT                          LINE                          POLYGON
           |                              |                              |
-       Lat/Lon                        Lunghezza                       Area
-       X/Y                            Vertici                         Perimetro
-       CRS                            Start/End                       Centroide
+       Lat/Lon                        Length                          Area
+       X/Y                            Vertices                        Perimetre
+       CRS                            Start/End                       Centroid
           |                              |                              |
           +---------------+--------------+--------------+---------------+
                                           |
-                                 COPIA / ESPORTA
+                                    COPY / EXPORT
                                           |
                     +---------------------+---------------------+
                     |                     |                     |
