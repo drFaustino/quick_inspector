@@ -1,0 +1,27 @@
+[general]
+name=Quick Inspector
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Universal geometry inspector for quickly analyzing points, lines, and polygons, including coordinates, lengths, areas, and other key geometric properties. Copy or export results as WKT, GeoJSON, or coordinates.
+
+version=1.0
+
+author=Dr. Geol. Faustino Cetraro
+email=geol-faustino@libero.it
+
+about=Quick Inspector lets you click a feature directly on the map and instantly view the most relevant geometric information based on its geometry type. For points, it displays latitude/longitude, X/Y coordinates, and CRS information. For lines, it provides length, vertex count, and start/end coordinates. For polygons, it shows area, perimeter, vertex count, and centroid. The plugin also displays the feature's attribute table and allows individual attribute values to be edited through a dedicated dialog with Save and Cancel options. Geometric information can be copied to the clipboard or exported to WKT, GeoJSON, or coordinate-list files.
+
+tracker=https://github.com/drFaustino/quick_inspector
+repository=https://github.com/drFaustino/quick_inspector
+homepage=https://github.com/drFaustino/quick_inspector
+
+category=Vector
+tags=geometry,inspector,wkt,geojson,coordinates,point,line,polygon,attributes
+
+icon=icon.png
+
+experimental=False
+deprecated=False
+server=False
+hasProcessingProvider=no
